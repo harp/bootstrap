@@ -37,8 +37,9 @@ Now, from within a `.less` file in your project, you can `@import` Bootstrap:
 Or, just a portion of Bootstrap:
 
 ```less
-@import "components/harp-bootstrap/less/variables.less";
-@import "components/harp-bootstrap/less/grid.less";
+@import "components/harp-bootstrap/less/_variables.less";
+@import "components/harp-bootstrap/less/_mixins.less";
+@import "components/harp-bootstrap/less/_grid.less";
 ```
 
 ## Resources
