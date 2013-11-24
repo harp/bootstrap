@@ -9,20 +9,20 @@
 
 ## Install
 
-To install Bootstrap, run the following command from the root of your harp project:
+To install Bootstrap, run the following command from the root of your Harp project:
 
 ```bash
 harp install bootstrap
 ```
 
-Your Project will look something like this…
+Your project will look something like this…
 
 ```
 myproject/                  <-- your project root (or public dir if in framework-mode)
   |- components/            <-- harp puts components here
   |   +- harp-bootstrap/    <-- where this lib gets installed
   |       …
-  |- main.styl              <-- where you reference Bootstrap 
+  |- main.less              <-- where you reference Bootstrap 
   +- index.jade             <-- where you reference main.css
 ```
 
