@@ -61,7 +61,7 @@
     "less/_utilities.less",
     "less/_variables.less",
     "less/_wells.less",
-    "less/bootstrap.less"
+    "less/_bootstrap.less"
   ],
   "fonts": [
     "fonts/glyphicons-halflings-regular.eot",

@@ -31,7 +31,7 @@ myproject/                  <-- your project root (or public dir if in framework
 Now, from within a `.less` file in your project, you can `@import` Bootstrap:
 
 ```less
-@import "components/harp-bootstrap/less/bootstrap.less";
+@import "components/harp-bootstrap/less/_bootstrap.less";
 ```
 
 Or, just a portion of Bootstrap:
