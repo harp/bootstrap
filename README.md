@@ -9,10 +9,11 @@
 
 ## Install
 
-To install Bootstrap, run the following command from the root of your Harp project:
+To install Bootstrap, you can [download this repository](https://github.com/harp/bootstrap/archive/master.zip) or use the  [Component](http://component.io) package manager.
 
 ```bash
-harp install bootstrap
+npm install -g component
+component install harp/bootstrap
 ```
 
 Your project will look something like this…
