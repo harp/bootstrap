@@ -21,8 +21,9 @@ Your project will look something like this…
 ```
 myproject/                  <-- your project root (or public dir if in framework-mode)
   |- components/            <-- harp puts components here
-  |   +- harp-bootstrap/    <-- where this lib gets installed
-  |       …
+  |   +- harp/    <-- where this lib gets installed
+  |      +- bootstrap/
+  |         …
   |- main.less              <-- where you reference Bootstrap 
   +- index.jade             <-- where you reference main.css
 ```
@@ -32,15 +33,15 @@ myproject/                  <-- your project root (or public dir if in framework
 Now, from within a `.less` file in your project, you can `@import` Bootstrap:
 
 ```less
-@import "components/harp-bootstrap/less/_bootstrap.less";
+@import "components/harp/bootstrap/3.0.2/less/bootstrap.less";
 ```
 
 Or, just a portion of Bootstrap:
 
 ```less
-@import "components/harp-bootstrap/less/_variables.less";
-@import "components/harp-bootstrap/less/_mixins.less";
-@import "components/harp-bootstrap/less/_grid.less";
+@import "components/harp/bootstrap/3.0.2/less/_variables.less";
+@import "components/harp/bootstrap/3.0.2/less/_mixins.less";
+@import "components/harp/bootstrap/3.0.2/less/_grid.less";
 ```
 
 ## Resources
